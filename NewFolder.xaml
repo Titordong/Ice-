@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ice云盘.NewFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ice云盘"
+        mc:Ignorable="d"
+        Title="NewFolder" Height="100" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="文件夹名："  VerticalAlignment="Center" FontSize="20" ></TextBlock>
+            <TextBox x:Name="foldername" Width="120" Height="30" FontSize="20" VerticalContentAlignment="Center"></TextBox>
+            <Button x:Name="OK" Content="确认" Margin="10 0 0 0" Width="30" Height="30" Click="OK_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
